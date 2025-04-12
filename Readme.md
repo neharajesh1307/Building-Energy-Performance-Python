@@ -67,7 +67,7 @@ Only buildings constructed from **2000 onwards** were considered to reflect mode
 
 ```bash
 pip install pandas numpy seaborn matplotlib scikit-learn joblib
-
+```
 
 ## Model Reusability
 Each model and the preprocessing pipeline is saved as a .pkl file using joblib. These can be reloaded for deployment or batch inference without retraining.
